@@ -40,6 +40,7 @@ const StarProvider = ({ children }) => {
   const context = {
     listPlanet,
     filterName,
+    setFilterName,
     handleChange,
     setColumn,
     setComparison,
